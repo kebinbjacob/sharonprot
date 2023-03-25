@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "protfolio-7abdc",
+    "staging": "protfolio-7abdc"
+  },
+  "targets": {},
+  "etags": {}
+}

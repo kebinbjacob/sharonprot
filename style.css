@@ -1,0 +1,40 @@
+.container-fluid {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: #eef1f1;
+    
+     box-shadow: 0 2px 0 #00000066; 
+    z-index: 10;
+  }
+  .center {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+  }
+  .center1{
+    text-align: center;
+text-decoration:solid;
+    display: block;
+    color: rgb(255, 244, 244);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+ .intro {
+    text-align: center;
+    color:#fff;
+    font-style: ;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.4;
+
+  }
