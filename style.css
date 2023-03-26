@@ -11,6 +11,10 @@
      box-shadow: 0 2px 0 #00000066; 
     z-index: 10;
   }
+  .fa-instagram {
+    background: #125688;
+    color: ;
+  }
   .center {
     text-align: center;
     display: block;

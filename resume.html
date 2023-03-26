@@ -15,6 +15,29 @@
       
       
     }
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #000000;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #1a201a}
+
+.button:active {
+  background-color: #000000;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
     </style>
 </head>
 <header>
@@ -57,10 +80,23 @@
                 alt="avathar" 
                     width="250" height="500" 
                     border="5" class="center">
+                    <div><h2 style="color: bisque;">
+                     CLICK HERE TO DOWNLOAD MY RESUME
+                    </h2></div>
         
          <a href="resumesha.pdf" download="Resume">
-         <button type="button">Download</button>
+         <button class="button" type="button" >Download</button>
          </a>
       </div>
+      
+  <footer class="bg-light text-center text-white">
+   <div>
+     <div class="text-center p-3" style="background-color: rgb(255, 255, 255); color: black;">
+       All Rights reserved © 2023 Copyright: KBJ IT SOLUTIONS
+       <a class ="text-white" href="">KBJ IT Solutions</a>
+     </div>
+     </div>
+     <!-- Copyright -->
+   </footer>
    </body>
 </html>
